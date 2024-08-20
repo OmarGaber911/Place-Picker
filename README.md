@@ -1,66 +1,61 @@
-Place Picker and Shortest Path
-Overview
-This Flutter application allows users to pick locations on a map and find the shortest path between two specified locations. It demonstrates the use of Flutter's flutter_map package for map rendering and marker management, and includes a feature to calculate and display the shortest path between two points using geocoding and pathfinding algorithms.
+#Place Picker and Shortest Path
 
-Features
-Map Display: Shows a map with markers indicating the start and end locations.
-Shortest Path Calculation: Computes and displays the shortest path between two locations.
-Location Picker: Users can input locations and see them on the map.
-Getting Started
-Prerequisites
-Flutter SDK
-Dart SDK
-An IDE such as Android Studio or Visual Studio Code
-Installation
-Clone the repository:
+##Overview
+This Flutter application allows users to pick locations on a map and find the shortest path between two specified locations. It uses Flutter's flutter_map package for map rendering and marker management, and includes functionality for geocoding and pathfinding.
+##Features
+-Map Display: View a map with markers for the start and end locations.
 
-sh
-Copy code
+-Shortest Path Calculation: Calculate and display the shortest path between two locations.
+
+-Location Picker: Enter locations to see them on the map.
+##Getting Started
+###Prerequisites
+-Flutter SDK
+-Dart SDK
+-An IDE such as Android Studio or Visual Studio Code
+## Installation
+1- Clone the repository:
+```bash
 git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project directory:
 
-sh
-Copy code
+```
+2-Navigate to the project directory:
+```bash
 cd your-repo-name
-Install dependencies:
 
-sh
-Copy code
+```
+3-Install dependencies:
+```bash
 flutter pub get
-Usage
-Run the application:
 
-sh
-Copy code
+```
+##Usage
+1-Run the Application
+```bash
 flutter run
-Interacting with the App:
 
-Enter the start and end locations in the respective text fields.
-Click the search icon to find the shortest path.
-The map will display markers for both locations and a polyline representing the shortest path.
-Dependencies
-flutter_map: A Flutter package for displaying maps.
-latlong2: A package for handling geographic coordinates.
-http: A package for making HTTP requests.
-Example dependencies in pubspec.yaml:
+```
+2-interacting with the App:
 
-yaml
-Copy code
+-Enter the start and end locations in the text fields.
+-Click the search icon to find the shortest path.
+-The map will show markers for both locations and a polyline representing the shortest path.
+##Dependencies
+
+```bash
+
 dependencies:
   flutter:
     sdk: flutter
   flutter_map: ^3.1.0
   latlong2: ^0.8.1
   http: ^0.15.0
-Geocoding
-The application uses the Nominatim API from OpenStreetMap for geocoding. Ensure you adhere to OpenStreetMap's usage policy.
 
-Pathfinding
-The shortest path is computed using a basic algorithm that calculates intermediate points along a straight line between the start and end coordinates.
-
-Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add new feature').
-Push the branch (git push origin feature-branch).
-Create a new Pull Request.
+```
+##Contributing 
+1-Fork the repository.
+2-Create a new branch (git checkout -b feature-branch).
+3-Commit your changes (git commit -am 'Add new feature').
+4-Push the branch (git push origin feature-branch).
+5-Create a Pull Request on GitHub.
+    
