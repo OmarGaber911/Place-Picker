@@ -1,15 +1,15 @@
-#Place Picker and Shortest Path
+# Place Picker and Shortest Path
 
-##Overview
+## Overview
 This Flutter application allows users to pick locations on a map and find the shortest path between two specified locations. It uses Flutter's flutter_map package for map rendering and marker management, and includes functionality for geocoding and pathfinding.
-##Features
+## Features
 -Map Display: View a map with markers for the start and end locations.
 
 -Shortest Path Calculation: Calculate and display the shortest path between two locations.
 
 -Location Picker: Enter locations to see them on the map.
-##Getting Started
-###Prerequisites
+## Getting Started
+### Prerequisites
 -Flutter SDK
 -Dart SDK
 -An IDE such as Android Studio or Visual Studio Code
@@ -29,7 +29,7 @@ cd your-repo-name
 flutter pub get
 
 ```
-##Usage
+## Usage
 1-Run the Application
 ```bash
 flutter run
@@ -40,7 +40,7 @@ flutter run
 -Enter the start and end locations in the text fields.
 -Click the search icon to find the shortest path.
 -The map will show markers for both locations and a polyline representing the shortest path.
-##Dependencies
+## Dependencies
 
 ```bash
 
@@ -52,7 +52,7 @@ dependencies:
   http: ^0.15.0
 
 ```
-##Contributing 
+## Contributing 
 1-Fork the repository.
 2-Create a new branch (git checkout -b feature-branch).
 3-Commit your changes (git commit -am 'Add new feature').
